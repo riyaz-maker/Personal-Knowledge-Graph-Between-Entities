@@ -1,0 +1,90 @@
+{
+    "nodes": [
+        {
+            "id": "usurperist",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Xiankang He",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Development <obj> has part",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Nanyang Technological University <obj> educated at",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Chi Zhang",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Hongji Li",
+            "type": "ENTITY"
+        },
+        {
+            "id": "International Journal of Teaching and Learning in Higher Education",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Nanyang Technological University <obj> educated at</s>",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Wiley <obj> publisher</s>",
+            "type": "ENTITY"
+        },
+        {
+            "id": "usurperist <obj> opposite of",
+            "type": "ENTITY"
+        },
+        {
+            "id": "Research",
+            "type": "ENTITY"
+        }
+    ],
+    "edges": [
+        {
+            "source": "usurperist",
+            "relation": "USURPER_<OBJ>_OPPOSITE_OF",
+            "target": "usurperist <obj> opposite of"
+        },
+        {
+            "source": "usurperist",
+            "relation": "USURPERIST_<OBJ>_OPPOSITE_OF",
+            "target": "usurperist <obj> opposite of"
+        },
+        {
+            "source": "Xiankang He",
+            "relation": "ZHEJIANG_UNIVERSITY_OF_TECHNOLOGY_<OBJ>_EDUCATED_AT",
+            "target": "Nanyang Technological University <obj> educated at"
+        },
+        {
+            "source": "Hongji Li",
+            "relation": "ZHEJIANG_UNIVERSITY_OF_TECHNOLOGY_<OBJ>_EDUCATED_AT",
+            "target": "Nanyang Technological University <obj> educated at"
+        },
+        {
+            "source": "Chi Zhang",
+            "relation": "ZHEJIANG_UNIVERSITY_OF_TECHNOLOGY_<OBJ>_EDUCATED_AT",
+            "target": "Nanyang Technological University <obj> educated at</s>"
+        },
+        {
+            "source": "Research",
+            "relation": "INTRODUCTION_<OBJ>_HAS_PART",
+            "target": "Development <obj> has part"
+        },
+        {
+            "source": "Research",
+            "relation": "INTRODUCTION_<OBJ>_HAS_PART",
+            "target": "Development <obj> has part"
+        },
+        {
+            "source": "International Journal of Teaching and Learning in Higher Education",
+            "relation": "WILEY_<OBJ>_PUBLISHER",
+            "target": "Wiley <obj> publisher</s>"
+        }
+    ]
+}
